@@ -1,18 +1,21 @@
-# ai-dev-exp-template
+# Day001 — Draft Tightener
 
-Vite-based single-page template for `ai-dev-day-XXX` repositories.
+> 文章を短く整えて、投稿しやすい形に圧縮するライティングツール。
 
-## Required meta.json fields
+## 使い方
 
-- `day` (e.g. `Day001`)
-- `title`
-- `description`
-- `genre`
-- `theme`
-- `story_summary`
+1. ページを開く
+2. 入力欄にテキストを入れる
+3. 実行して結果を確認する
 
-## Theme behavior
+## Story
 
-- `src/themes.js` defines 8 visual themes.
-- Runtime applies `meta.json.theme` using CSS variables.
-- Day repos should set `theme` with a day-seeded deterministic selector.
+- [制作ストーリー](./STORY.md)
+
+## Demo
+
+🌐 [GitHub Pages](https://ryo909.github.io/ai-dev-day-001/)
+
+---
+
+Day001 / #100日開発
